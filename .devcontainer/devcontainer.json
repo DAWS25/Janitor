@@ -19,11 +19,10 @@
     "ghcr.io/devcontainers-extra/features/quarkus-sdkman:2": {
       "jdkDistro": "graalce"
     },
+
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
-    },
-    "ghcr.io/devcontainers/features/npm:1": {},
-    "ghcr.io/devcontainers-contrib/features/nuxt:1": {}
+    }
   },
 
   "remoteUser": "vscode",
@@ -38,7 +37,7 @@
         "settings": {},
         "extensions": [
           "ms-azuretools.vscode-docker",
-          
+
           "github.copilot",
           "github.copilot-chat",
 
@@ -48,7 +47,7 @@
           "vscjava.vscode-java-test",
           "vscjava.vscode-maven",
           "redhat.java",
-          
+
           "Tobermory.es6-string-html",
           "vue.volar",
 
