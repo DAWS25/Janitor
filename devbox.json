@@ -10,6 +10,8 @@
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
     "scripts": {
+      "build": "./scripts/build.sh",
+      "deploy" : "./scripts/deploy.sh",
       "test": ["echo \"Error: no test specified\" && exit 1"]
     }
   }
