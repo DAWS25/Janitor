@@ -18,12 +18,17 @@
 
     "ghcr.io/devcontainers-extra/features/quarkus-sdkman:2": {
       "jdkDistro": "graalce"
-    }
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    },
+    "ghcr.io/devcontainers/features/npm:1": {},
+    "ghcr.io/devcontainers-contrib/features/nuxt:1": {}
   },
 
   "remoteUser": "vscode",
 
-  "forwardPorts": [8080],
+  "forwardPorts": [8080, 3000],
 
   "postCreateCommand": "./.devcontainer/post-create.sh",
 

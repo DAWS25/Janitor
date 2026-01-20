@@ -1,0 +1,298 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "awscli2@latest": {
+      "last_modified": "2026-01-09T13:41:53Z",
+      "resolved": "github:NixOS/nixpkgs/5f02c91314c8ba4afe83b256b023756412218535#awscli2",
+      "source": "devbox-search",
+      "version": "2.32.15",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yfch5v9958g1wxhfckj3sfz6cpv8fgfq-awscli2-2.32.15",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/4n2njp3bws3pb9jmq8f4dzigx9qkgmjr-awscli2-2.32.15-dist"
+            }
+          ],
+          "store_path": "/nix/store/yfch5v9958g1wxhfckj3sfz6cpv8fgfq-awscli2-2.32.15"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a5lqz37jsqsfqfxv1j2vcq472y73x3k4-awscli2-2.32.15",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/3llxnlc2hlra4xr14k6r14qljnislac5-awscli2-2.32.15-dist"
+            }
+          ],
+          "store_path": "/nix/store/a5lqz37jsqsfqfxv1j2vcq472y73x3k4-awscli2-2.32.15"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ayx3lxh4pcmi9yxz7f80b5alnyzjz762-awscli2-2.32.15",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/xrnm59vxx1rbrmggsk8z5599jvs68h60-awscli2-2.32.15-dist"
+            }
+          ],
+          "store_path": "/nix/store/ayx3lxh4pcmi9yxz7f80b5alnyzjz762-awscli2-2.32.15"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m7jaymx0zvf9pvlaic9sggf8mwjvjan7-awscli2-2.32.15",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/6wa1pgspzyhwznck5qz73xl7wpyxv57g-awscli2-2.32.15-dist"
+            }
+          ],
+          "store_path": "/nix/store/m7jaymx0zvf9pvlaic9sggf8mwjvjan7-awscli2-2.32.15"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-01-19T00:39:23Z",
+      "resolved": "github:NixOS/nixpkgs/bde09022887110deb780067364a0818e89258968?lastModified=1768783163"
+    },
+    "graalvmPackages.graalvm-ce@latest": {
+      "last_modified": "2026-01-11T16:44:50Z",
+      "resolved": "github:NixOS/nixpkgs/4d113fe1f7bb454435a5cabae6cd283e64191bb7#graalvmPackages.graalvm-ce",
+      "source": "devbox-search",
+      "version": "25.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9g855frilgp8wr5399mrs0x1yki8jri1-graalvm-ce-25.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9g855frilgp8wr5399mrs0x1yki8jri1-graalvm-ce-25.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rq5lg1nspgw2hj5l2pmb4l4y68ljbd1k-graalvm-ce-25.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rq5lg1nspgw2hj5l2pmb4l4y68ljbd1k-graalvm-ce-25.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/61mb56812c22qd8y953pams3kf6lbrr6-graalvm-ce-25.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/61mb56812c22qd8y953pams3kf6lbrr6-graalvm-ce-25.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j9l7pkm3z9rcplv2yy7syi4rcy8352ml-graalvm-ce-25.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j9l7pkm3z9rcplv2yy7syi4rcy8352ml-graalvm-ce-25.0.0"
+        }
+      }
+    },
+    "maven@latest": {
+      "last_modified": "2025-12-31T03:27:36Z",
+      "resolved": "github:NixOS/nixpkgs/f665af0cdb70ed27e1bd8f9fdfecaf451260fc55#maven",
+      "source": "devbox-search",
+      "version": "3.9.12",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z706acy67c98mfvqhhbqcca6kx3fmqgi-maven-3.9.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z706acy67c98mfvqhhbqcca6kx3fmqgi-maven-3.9.12"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7nq9881fn9ilqz2sgihkg2lwm9hwbwln-maven-3.9.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7nq9881fn9ilqz2sgihkg2lwm9hwbwln-maven-3.9.12"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rm6n9hkfw22nczsc482wwiyw4mi5fxf1-maven-3.9.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rm6n9hkfw22nczsc482wwiyw4mi5fxf1-maven-3.9.12"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8d2k4qnn4gn7gkmx516j11xgj3insf8f-maven-3.9.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8d2k4qnn4gn7gkmx516j11xgj3insf8f-maven-3.9.12"
+        }
+      }
+    },
+    "nodejs@latest": {
+      "last_modified": "2026-01-14T12:51:35Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/13868c071cc73a5e9f610c47d7bb08e5da64fdd5#nodejs_25",
+      "source": "devbox-search",
+      "version": "25.3.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k6m3ycx0d199wj6k25w0v464ylq4rxq7-nodejs-25.3.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/nzgf44hn9zr0fzg3l3n1adisrrs4ajmv-nodejs-25.3.0-dev"
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/71gkz93f07cczgilyxpc8kvrbfj30h6w-nodejs-25.3.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/k6m3ycx0d199wj6k25w0v464ylq4rxq7-nodejs-25.3.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dmqgxh2hgbxygqc86kg1s14032hvq9nz-nodejs-25.3.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/kdgcbcb8yh3pa4cbbr4cv8k9c8d3zfjw-nodejs-25.3.0-dev"
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/pmscxpbp2bpy3fqhl0kgnlvm6hbjvpj5-nodejs-25.3.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/dmqgxh2hgbxygqc86kg1s14032hvq9nz-nodejs-25.3.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5wjyfay85d8qnxh61phfvan2wzcnihpn-nodejs-25.3.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/h51crf2a9a01ixck84kach1h3fp924pa-nodejs-25.3.0-dev"
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/h2r78kcgxkp7absbyzlsnjw99ljckjxh-nodejs-25.3.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/5wjyfay85d8qnxh61phfvan2wzcnihpn-nodejs-25.3.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mnidlfk3ld1n0dll0zdd4mhzbq9phn9n-nodejs-25.3.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/hj75q4m68bh0hf4vgvfj2qdi9gnszw08-nodejs-25.3.0-dev"
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/icqs2k7jmm6bnykpgyjk3bng65hxs8rq-nodejs-25.3.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/mnidlfk3ld1n0dll0zdd4mhzbq9phn9n-nodejs-25.3.0"
+        }
+      }
+    },
+    "quarkus@latest": {
+      "last_modified": "2025-12-31T03:27:36Z",
+      "resolved": "github:NixOS/nixpkgs/f665af0cdb70ed27e1bd8f9fdfecaf451260fc55#quarkus",
+      "source": "devbox-search",
+      "version": "3.30.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f6qbyzrlbirmy777d586qv89www5vlmy-quarkus-cli-3.30.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f6qbyzrlbirmy777d586qv89www5vlmy-quarkus-cli-3.30.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5y1fzs9b9f7fazjg89ifc9glmgzwvhks-quarkus-cli-3.30.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5y1fzs9b9f7fazjg89ifc9glmgzwvhks-quarkus-cli-3.30.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g0g4x8gn1xlblh8h0x718x122dapzzzx-quarkus-cli-3.30.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g0g4x8gn1xlblh8h0x718x122dapzzzx-quarkus-cli-3.30.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rfsjjny48yaxhrliv6jxrq662m1zfs21-quarkus-cli-3.30.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rfsjjny48yaxhrliv6jxrq662m1zfs21-quarkus-cli-3.30.5"
+        }
+      }
+    }
+  }
+}

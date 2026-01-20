@@ -1,0 +1,6 @@
+version: "0.5"
+
+processes:
+  # foundation services
+  1-nuxt:
+    command: cd janitor-nuxt && npm run dev
