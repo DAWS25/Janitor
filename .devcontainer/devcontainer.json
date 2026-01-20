@@ -1,0 +1,46 @@
+{
+  "name": "Janitor Dev Container",
+
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "username": "vscode",
+      "userUid": "1000",
+      "userGid": "1000"
+    },
+    "ghcr.io/devcontainers-extra/features/direnv:1": {},
+    "ghcr.io/devcontainers/features/java:1": {
+      "installMaven": true,
+      "jdkDistro": "graalce"
+    },
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers-extra/features/aws-cdk:2": {}
+  },
+
+  "remoteUser": "vscode",
+
+  "forwardPorts": [8080],
+
+  "postCreateCommand": "./.devcontainer/post-create.sh",
+
+  "customizations": {
+    "codespaces": {
+      "vscode": {
+        "settings": {},
+        "extensions": [
+          "jetpack-io.devbox",
+          "ms-azuretools.vscode-docker",
+          "github.copilot",
+          "github.copilot-chat",
+          "vscjava.vscode-java-pack",
+          "vscjava.vscode-java-debug",
+          "vscjava.vscode-java-dependency",
+          "vscjava.vscode-java-test",
+          "vscjava.vscode-maven",
+          "redhat.java"
+        ]
+      }
+    }
+  }
+}
