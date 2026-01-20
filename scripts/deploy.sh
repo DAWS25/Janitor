@@ -6,9 +6,10 @@ pushd "$DIR/.."
 source ./scripts/build.sh
 
 aws sts get-caller-identity
-sleep 15
 
 pushd janitor-cdk
+npm install
+cdk bootstrap
 cdk deploy
 popd
 

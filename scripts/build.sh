@@ -6,6 +6,7 @@ pushd "$DIR/.."
 pushd janitor-nuxt
 rm -rf target
 mkdir -p target
+npm install
 npm run build:aws
 pushd .output
 zip -r ../target/output.zip .
