@@ -1,0 +1,15 @@
+# Environment settings
+.envrc
+.env
+
+# Tools temps
+.quarkus
+.devbox
+
+# Logs
+*.log
+
+# Binaries
+target/
+node_modules/
+

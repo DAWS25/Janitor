@@ -1,0 +1,61 @@
+{
+  "name": "Janitor Dev Container",
+
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "username": "vscode",
+      "userUid": "1000",
+      "userGid": "1000"
+    },
+
+    "ghcr.io/devcontainers-extra/features/direnv:1": {},
+
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+
+    "ghcr.io/devcontainers-extra/features/aws-cdk:2": {},
+
+    "ghcr.io/devcontainers-extra/features/quarkus-sdkman:2": {
+      "jdkDistro": "graalce"
+    },
+
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    },
+
+    "ghcr.io/dlouwers/devcontainer-features/devbox:1": {}
+  },
+
+  "remoteUser": "vscode",
+
+  "forwardPorts": [8080, 3000],
+
+  "postCreateCommand": "./.devcontainer/post-create.sh",
+
+  "customizations": {
+    "codespaces": {
+      "vscode": {
+        "settings": {},
+        "extensions": [
+          "ms-azuretools.vscode-docker",
+
+          "github.copilot",
+          "github.copilot-chat",
+
+          "vscjava.vscode-java-pack",
+          "vscjava.vscode-java-debug",
+          "vscjava.vscode-java-dependency",
+          "vscjava.vscode-java-test",
+          "vscjava.vscode-maven",
+          "redhat.java",
+
+          "Tobermory.es6-string-html",
+          "vue.volar",
+
+          "jetpack-io.devbox"
+        ]
+      }
+    }
+  }
+}

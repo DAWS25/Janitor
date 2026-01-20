@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
+  "packages": [
+    "awscli2@latest",
+    "graalvmPackages.graalvm-ce@latest",
+    "quarkus@latest",
+    "maven@latest",
+    "nodejs@latest"
+  ],
+  "shell": {
+    "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
+    "scripts": {
+      "build": "./scripts/build.sh",
+      "deploy" : "./scripts/deploy.sh",
+      "test": ["echo \"Error: no test specified\" && exit 1"]
+    }
+  }
+}

@@ -1,2 +1,4 @@
 # cloud-janitor
-The right guy to clean up a cloud account.
+
+The right app to clean up your cloud accounts and avoid wasting money.
+
