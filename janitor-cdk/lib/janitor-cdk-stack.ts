@@ -11,7 +11,7 @@ export class JanitorCdkStack extends cdk.Stack {
     const { api } = createLambdaAndApi(this);
 
     // Optionally set up custom domain if env vars are set
-    // setupCustomDomain(this, { api });
+    setupCustomDomain(this, { api });
 
     // Output the API endpoint
     new cdk.CfnOutput(this, 'ApiEndpoint', {

@@ -9,8 +9,8 @@ aws sts get-caller-identity
 
 pushd janitor-cdk
 npm install
-cdk bootstrap
-cdk deploy
+npx cdk bootstrap
+npx cdk deploy --all --require-approval never
 popd
 
 #!

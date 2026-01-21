@@ -9,11 +9,12 @@ interface CustomDomainProps {
 }
 
 export function setupCustomDomain(scope: Construct, props: CustomDomainProps) {
-  const domainName = process.env.JANITOR_DOMAIN_NAME;
-  const hostedZoneId = process.env.JANITOR_HOSTED_ZONE_ID;
-  const certArn = process.env.JANITOR_ACM_CERT_ARN;
+  const domainName = process.env.DOMAIN_NAME;
+  const hostedZoneId = process.env.ZONE_ID;
+  const certArn = process.env.CERTIFICATE_ARN;
 
   if (!domainName || !hostedZoneId || !certArn) {
+    console.warn('Custom domain not set up. DOMAIN_NAME, ZONE_ID, or CERTIFICATE_ARN environment variables are missing.');
     return;
   }
 
