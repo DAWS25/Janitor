@@ -18,7 +18,7 @@
 
 ## How To Contribute
 
-## Contributor:
+## Contributors:
 - [Julio Faerman](https://github.com/faermanj)
 - [Pedro Klimaitis](https://github.com/pedrokli)
 -
